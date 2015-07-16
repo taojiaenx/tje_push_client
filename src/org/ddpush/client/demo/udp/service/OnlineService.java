@@ -24,6 +24,7 @@ import android.widget.Toast;
 
 public class OnlineService extends Service {
 	
+	
 	protected PendingIntent tickPendIntent;
 	protected TickAlarmReceiver tickAlarmReceiver = new TickAlarmReceiver();
 	WakeLock wakeLock;
